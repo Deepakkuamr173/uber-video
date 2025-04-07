@@ -26,11 +26,8 @@ The endpoint expects a JSON payload with the following structure:
 }
 
 
-## Request Data
+ //The `/users/login` endpoint is used to authenticate an existing user. It validates the provided credentials (email and password) and, upon successful authentication, returns an authentication token along with the user data.
 
-The endpoint expects a JSON payload with the following structure:
-
-```json
 {
   "email": "string (required, valid email format, minimum 5 characters)",
   "password": "string (required, minimum 6 characters)"

@@ -26,6 +26,17 @@ The endpoint expects a JSON payload with the following structure:
 }
 
 
+## Request Data
+
+The endpoint expects a JSON payload with the following structure:
+
+```json
+{
+  "email": "string (required, valid email format, minimum 5 characters)",
+  "password": "string (required, minimum 6 characters)"
+}
+
+
 
 
 
